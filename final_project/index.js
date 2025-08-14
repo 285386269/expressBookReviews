@@ -30,6 +30,7 @@ app.use("/customer/auth/*", function auth(req, res, next) {
       next(); // 继续执行后续路由
     } catch (err) {
       // 4. Token 无效（过期/篡改等）
+      console.error(err);
       return res.status(403).json({ error: "Forbidden: 身份验证 Token 无效" });
     }
   });

@@ -4,7 +4,7 @@ let books = {
       3: {"author": "Dante Alighieri","title": "The Divine Comedy", "reviews": {} },
       4: {"author": "Unknown","title": "The Epic Of Gilgamesh", "reviews": {} },
       5: {"author": "Unknown","title": "The Book Of Job", "reviews": {} },
-      6: {"author": "Unknown","title": "One Thousand and One Nights", "reviews": {} },
+      6: {"author": "Unknown","title": "One Thousand and One Nights", "reviews": {result: "perfect, I like it very much"} },
       7: {"author": "Unknown","title": "Nj\u00e1l's Saga", "reviews": {} },
       8: {"author": "Jane Austen","title": "Pride and Prejudice", "reviews": {} },
       9: {"author": "Honor\u00e9 de Balzac","title": "Le P\u00e8re Goriot", "reviews": {} },
